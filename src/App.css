@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.deleteButton{
+  background-color:transparent;
+  border: none;
+  left: 86%;
+  position: fixed;
+}
