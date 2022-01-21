@@ -13,11 +13,11 @@ class TodoForm extends Component {
     }
     render() {
         return (
-            <form class='mt-3' >
-                <div class='form-group'>
+            <form className='mt-3' >
+                <div className='form-group'>
                     <input
                         type='text'
-                        class='form-control'
+                        className='form-control'
                         name='todo'
                         id='todo'
                         aria-describedby='helpId'
@@ -27,7 +27,7 @@ class TodoForm extends Component {
                     />
                     <br/>
                     <button type='button'
-                        class='btn btn-primary btn-lg btn-block'
+                        className='btn btn-primary btn-lg btn-block'
                         onClick={this.handleAddTodo.bind(this)}> Add</button>
                 </div>
 

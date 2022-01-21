@@ -8,7 +8,7 @@ module.exports = {
       // host: 'postgres://localhost/test',
       database: 'ract_todo',
       user:     'postgres',
-      password: 'password'
+      password: 'rails'
     },
   }
 };
